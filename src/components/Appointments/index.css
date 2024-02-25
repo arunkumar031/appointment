@@ -1,0 +1,89 @@
+/* Write your CSS here */
+.bg {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.appointment-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+}
+.add-appointment-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.appointment-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.appointment-heading {
+  font-size: 44px;
+  color: #171f46;
+}
+label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #b5b7c4;
+  margin-bottom: 4px;
+}
+input {
+  outline: none;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 30px;
+  padding-left: 10px;
+}
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.add-btn {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 60px;
+  height: 30px;
+}
+.image {
+  width: 100%;
+}
+.appointments-container {
+  padding: 10px;
+}
+.appointments-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.appointments-heading {
+  font-size: 32px;
+  color: #171f46;
+}
+.filter-btn {
+  border: 2px solid #9897f0;
+  color: #9897f0;
+  font-size: 16px;
+  border-radius: 15px;
+  height: 30px;
+  width: 100px;
+}
+.filtered-btn {
+  border: none;
+  background-color: #8b5cf6;
+  color: #ffffff;
+}
+.appointments-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}

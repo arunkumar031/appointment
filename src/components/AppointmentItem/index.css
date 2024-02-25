@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.list-item {
+  margin: 5px;
+  border: 2px solid #b5b7c4;
+  border-radius: 10px;
+  padding: 10px;
+}
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  color: #171f46;
+  font-weight: 500;
+  font-size: 24px;
+}
+.date {
+  color: #b5b7c4;
+  font-weight: 500;
+  font-size: 24px;
+}
